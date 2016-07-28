@@ -9,10 +9,10 @@
         android:id="@+id/lly"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        <TextView
-            android:text="asdasdasd"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+        <ListView
+            android:id="@+id/lv_fenlei"
+            android:layout_width="80dp"
+            android:layout_height="match_parent" />
         <FrameLayout
             android:id="@+id/fl_jutifenlei"
             android:layout_width="match_parent"
