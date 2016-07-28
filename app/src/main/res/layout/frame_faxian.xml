@@ -133,7 +133,9 @@
         android:layout_height="@dimen/dp_40"
         android:scrollbars="none"
         android:background="@color/colorWhite"
-        android:layout_marginTop="5dp">
+        android:layout_marginTop="5dp"
+        android:id="@+id/hsv_faxian_2"
+        android:fillViewport="false">
 
         <RadioGroup
             android:id="@+id/rg_fenlei_menue"
@@ -211,7 +213,7 @@
     android:layout_height="match_parent">
     <android.support.v4.view.ViewPager
         android:id="@+id/vp_faxian"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/colorWhite">
