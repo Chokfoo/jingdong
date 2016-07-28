@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <declare-styleable name="com.example.jiahao.myapplication.layout.ShangPinLinerLayout">
-        <attr name="shangpintupian" format="reference"/>
-        <attr name="shangpinyuanjia" format="string"/>
-        <attr name="shangpinjiage" format="string"/>
-    </declare-styleable>
-</resources>
