@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".LoginActivity">
+
+    <Button
+        android:id="@+id/bt_closebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/c_9"
+
+        />
+    <TextView
+
+        android:id="@+id/tv_denglu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/bt_closebutton"
+        android:paddingLeft="50dp"
+        android:paddingTop="5dp"
+        android:textSize="30sp"
+        android:text="京东登录" />
+    <TextView
+        android:id="@+id/tv_zhanghao"
+        android:layout_below="@id/bt_closebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:paddingTop="20dp"
+        android:text="账号"/>
+    <EditText
+
+        android:id="@+id/et_zhanghao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/tv_denglu"
+        android:layout_toEndOf="@+id/tv_zhanghao" />
+    <TextView
+        android:paddingTop="50dp"
+        android:id="@+id/tv_mima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="密码"
+        android:textSize="25sp"
+        android:layout_below="@+id/tv_zhanghao"/>
+    <EditText
+        android:id="@+id/et_mima"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/et_zhanghao"
+        android:layout_toEndOf="@+id/tv_mima" />
+    <Button
+        android:id="@+id/bt_denglu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_mima"
+        android:text="登陆"
+        android:textSize="15pt"/>
+    <RelativeLayout
+        android:layout_below="@id/bt_denglu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_qitadenglu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="其它登陆方式"
+            android:textSize="14sp"/>
+        <TextView
+            android:id="@+id/tv_wangjimima"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="忘记密码"
+            android:textSize="14sp"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true">
+        <Button
+            android:id="@+id/bt_qq"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/qq"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bt_qq"
+            android:paddingLeft="20dp"
+            android:text="QQ登陆"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true">
+        <Button
+            android:id="@+id/bt_weixin"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/weixin"
+            android:layout_marginBottom="20dp"
+
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bt_weixin"
+            android:paddingRight="20dp"
+            android:text="微信登陆"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>
