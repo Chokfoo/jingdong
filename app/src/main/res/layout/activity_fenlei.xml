@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     >
@@ -9,10 +9,13 @@
         android:id="@+id/lly"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        <TextView
-            android:text="asdasdasd"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+        <ListView
+            android:listSelector="@drawable/selector_fenlei"
+            android:id="@+id/lv_fenlei"
+            android:layout_width="100dp"
+            android:layout_height="match_parent">
+
+        </ListView>
         <FrameLayout
             android:id="@+id/fl_jutifenlei"
             android:layout_width="match_parent"

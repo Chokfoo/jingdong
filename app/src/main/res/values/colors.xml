@@ -3,9 +3,5 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="colorGray">#dfdbdb</color>
-    <color name="colorWhite">#ffffff</color>
-    <color name="color_bt_checked">#fc0000</color>
-    <color name="color_bg_checked">#fc0000</color>
-    <color name="color_text_default">#000000</color>
+    <color name="colorGray">#fff0f0</color>
 </resources>
